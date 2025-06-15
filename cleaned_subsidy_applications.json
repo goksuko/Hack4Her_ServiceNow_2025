@@ -1,0 +1,797 @@
+[
+    {
+        "id": 1,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 63506,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 137,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 2,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 63506,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 127,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 3,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 63506,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 123,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 4,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 63506,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 111,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 5,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 63506,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 122,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 6,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 20130,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 100,
+        "housing_situation": "temporary shelter",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 7,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 20130,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 62,
+        "housing_situation": "temporary shelter",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 8,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 22287,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 71,
+        "housing_situation": "rental",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 9,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 22287,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 83,
+        "housing_situation": "rental",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 10,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 22287,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 48,
+        "housing_situation": "rental",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 11,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 22287,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 44,
+        "housing_situation": "rental",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 12,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 89012,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            6
+        ],
+        "childcare_hours_requested": 97,
+        "housing_situation": "municipal housing",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 13,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 40585,
+        "employment_status": "self-employed",
+        "num_children": 2,
+        "child_ages": [
+            2,
+            5,
+            6
+        ],
+        "childcare_hours_requested": 104,
+        "housing_situation": "owned",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 14,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 40585,
+        "employment_status": "self-employed",
+        "num_children": 2,
+        "child_ages": [
+            2,
+            5,
+            6
+        ],
+        "childcare_hours_requested": 42,
+        "housing_situation": "owned",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 15,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 38086,
+        "employment_status": "unemployed",
+        "num_children": 2,
+        "child_ages": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "childcare_hours_requested": 86,
+        "housing_situation": "temporary shelter",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 16,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 23952,
+        "employment_status": "self-employed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 82,
+        "housing_situation": "municipal housing",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "housing benefit"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 17,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 23952,
+        "employment_status": "self-employed",
+        "num_children": 1,
+        "child_ages": [
+            3
+        ],
+        "childcare_hours_requested": 137,
+        "housing_situation": "municipal housing",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "housing benefit"
+        ],
+        "flags": {
+            "incomplete_docs": false,
+            "high_hours_request": true,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 18,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 44269,
+        "employment_status": "part-time",
+        "num_children": 2,
+        "child_ages": [
+            1,
+            3,
+            5
+        ],
+        "childcare_hours_requested": 62,
+        "housing_situation": "rental",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 19,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 82736,
+        "employment_status": "part-time",
+        "num_children": 1,
+        "child_ages": [
+            0
+        ],
+        "childcare_hours_requested": 68,
+        "housing_situation": "municipal housing",
+        "partner_employed": false,
+        "recent_municipal_support": [
+            "housing benefit",
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 20,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 59549,
+        "employment_status": "self-employed",
+        "num_children": 1,
+        "child_ages": [
+            1
+        ],
+        "childcare_hours_requested": 99,
+        "housing_situation": "temporary shelter",
+        "partner_employed": true,
+        "recent_municipal_support": [
+            "food aid"
+        ],
+        "flags": {
+            "incomplete_docs": true,
+            "high_hours_request": false,
+            "income_mismatch": false
+        }
+    },
+    {
+        "id": 21,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 60285,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            0
+        ],
+        "childcare_hours_requested": 98,
+        "housing_situation": "rented",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 22,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 57344,
+        "employment_status": "employed",
+        "num_children": 2,
+        "child_ages": [
+            8,
+            11
+        ],
+        "childcare_hours_requested": 40,
+        "housing_situation": "temporary shelter",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 23,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 23132,
+        "employment_status": "part-time",
+        "num_children": 0,
+        "child_ages": [],
+        "childcare_hours_requested": 129,
+        "housing_situation": "with relatives",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 24,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 16897,
+        "employment_status": "part-time",
+        "num_children": 2,
+        "child_ages": [
+            2,
+            6,
+            12,
+            13
+        ],
+        "childcare_hours_requested": 125,
+        "housing_situation": "with relatives",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 25,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 49065,
+        "employment_status": "freelancer",
+        "num_children": 2,
+        "child_ages": [
+            3,
+            10,
+            14
+        ],
+        "childcare_hours_requested": 108,
+        "housing_situation": "with relatives",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 26,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 20507,
+        "employment_status": "employed",
+        "num_children": 2,
+        "child_ages": [
+            5,
+            9,
+            9,
+            14
+        ],
+        "childcare_hours_requested": 109,
+        "housing_situation": "owned",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 27,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 47560,
+        "employment_status": "unemployed",
+        "num_children": 2,
+        "child_ages": [
+            0,
+            4,
+            8,
+            12
+        ],
+        "childcare_hours_requested": 55,
+        "housing_situation": "owned",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 28,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 38579,
+        "employment_status": "student",
+        "num_children": 2,
+        "child_ages": [
+            8,
+            9,
+            13,
+            15
+        ],
+        "childcare_hours_requested": 22,
+        "housing_situation": "owned",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 29,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 58275,
+        "employment_status": "student",
+        "num_children": 0,
+        "child_ages": [],
+        "childcare_hours_requested": 24,
+        "housing_situation": "with relatives",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 30,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 20971,
+        "employment_status": "unemployed",
+        "num_children": 0,
+        "child_ages": [],
+        "childcare_hours_requested": 131,
+        "housing_situation": "owned",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 31,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 20764,
+        "employment_status": "student",
+        "num_children": 0,
+        "child_ages": [],
+        "childcare_hours_requested": 121,
+        "housing_situation": "rented",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 32,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 15427,
+        "employment_status": "freelancer",
+        "num_children": 2,
+        "child_ages": [
+            3,
+            4,
+            12
+        ],
+        "childcare_hours_requested": 104,
+        "housing_situation": "rented",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 33,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 68971,
+        "employment_status": "employed",
+        "num_children": 0,
+        "child_ages": [
+            12
+        ],
+        "childcare_hours_requested": 37,
+        "housing_situation": "owned",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 34,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 62035,
+        "employment_status": "part-time",
+        "num_children": 2,
+        "child_ages": [
+            1,
+            2,
+            10
+        ],
+        "childcare_hours_requested": 149,
+        "housing_situation": "temporary shelter",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 35,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 46942,
+        "employment_status": "freelancer",
+        "num_children": 2,
+        "child_ages": [
+            5,
+            10
+        ],
+        "childcare_hours_requested": 94,
+        "housing_situation": "rented",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 36,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 38757,
+        "employment_status": "part-time",
+        "num_children": 2,
+        "child_ages": [
+            4,
+            4,
+            12,
+            13
+        ],
+        "childcare_hours_requested": 78,
+        "housing_situation": "rented",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 37,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 72552,
+        "employment_status": "employed",
+        "num_children": 0,
+        "child_ages": [
+            14
+        ],
+        "childcare_hours_requested": 88,
+        "housing_situation": "with relatives",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 38,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 39017,
+        "employment_status": "employed",
+        "num_children": 1,
+        "child_ages": [
+            11,
+            13,
+            15,
+            15
+        ],
+        "childcare_hours_requested": 102,
+        "housing_situation": "temporary shelter",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 39,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 61580,
+        "employment_status": "unemployed",
+        "num_children": 0,
+        "child_ages": [
+            13
+        ],
+        "childcare_hours_requested": 121,
+        "housing_situation": "rented",
+        "partner_employed": false,
+        "recent_municipal_support": [],
+        "flags": {}
+    },
+    {
+        "id": 40,
+        "application_id": "XXXXX",
+        "name": "XXXXX",
+        "household_income": 36271,
+        "employment_status": "unemployed",
+        "num_children": 1,
+        "child_ages": [
+            0,
+            15
+        ],
+        "childcare_hours_requested": 122,
+        "housing_situation": "temporary shelter",
+        "partner_employed": true,
+        "recent_municipal_support": [],
+        "flags": {}
+    }
+]
