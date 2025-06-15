@@ -33,28 +33,36 @@ class Application:
     def correct_num_children(self):
         if self.num_children <= 0:
             self.eligibility = False
+            self.decision = "INVALID_CHILDREN"
+            self.reason = "Number of children must be greater than 0."
         for age in self.child_ages:
             if age < 12 :
                 if self.encoded_num_children < 2:
                     self.encoded_num_children += 1
             if self.encoded_num_children == 2:
                 break   
-        if self.encoded_num_children == 0:
-            self.eligibility = False 
             
     def correct_work_status(self):
         if self.employment_status == "unemployed" and not self.partner_employed:
             self.eligibility = False
-                
+            self.decision = "INVALID_WORK_STATUS"
+            self.reason = "Applicant must be employed or have an employed partner."
+                            
     def correct_income(self):
         if self.household_income < 0:
             self.eligibility = False
+            self.decision = "INVALID_INCOME"
+            self.reason = "Household income cannot be negative."
         elif self.household_income > 50000:
             self.eligibility = False
+            self.decision = "INCOME_TOO_HIGH"
+            self.reason = "Household income exceeds the maximum threshold for subsidy eligibility."
     
     def correct_vulnerability(self):
         if self.housing_situation == "unstable" or self.recent_municipal_support:
             self.vulnerability = True
+            self.decision = "VULNERABLE"
+            self.reason = "Applicant is considered vulnerable due to unstable housing or recent municipal support."
 
     
 for item in data:   

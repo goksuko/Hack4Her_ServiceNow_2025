@@ -103,7 +103,8 @@ def applicant_check(applicant):
     
 def main():
     for applicant in data_cleaned:
-        applicant_check(applicant)
+        if applicant.eligibility and not applicant.vulnerablility:
+            applicant_check(applicant)
         print(tabulate_result(applicant))
 
         
