@@ -293,9 +293,9 @@ def tabulate_result(self) -> str:
     
     return tabulate(data, headers=["Field", "Value"], tablefmt="grid")
 
-print("Tabulated Result for first application:")
-print(tabulate_result(data_cleaned[0]))
+# print("Tabulated Result for first application:")
+# print(tabulate_result(data_cleaned[0]))
 
    
-write_to_csv(data_cleaned[0])
-write_to_json(data_cleaned[0])
+# write_to_csv(data_cleaned[0])
+# write_to_json(data_cleaned[0])

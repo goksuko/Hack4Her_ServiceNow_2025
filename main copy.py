@@ -101,13 +101,10 @@ def applicant_check(applicant):
         reason = match.group(2).strip()
         applicant.decision = decision
         applicant.reason = reason
-    else:
-        print("Could not parse output.")
         
-    
 def main():
     for applicant in data_cleaned:
-        if applicant.eligibility and not applicant.vulnerablility:
+        if applicant.eligibility and len(applicant.vulnerability) > 1:
             applicant_check(applicant)
         # print(tabulate_result(applicant))
     write_to_csv(data_cleaned)
