@@ -1,3 +1,4 @@
+import csv
 import json
 
 import os
@@ -14,6 +15,8 @@ from tapeagents.orchestrator import main_loop
 from our_data import data_cleaned
 from our_data import Application
 from our_data import tabulate_result
+from our_data import write_to_csv
+from our_data import write_to_json
 
 import re
 import tabulate
@@ -100,13 +103,17 @@ def applicant_check(applicant):
         applicant.reason = reason
     else:
         print("Could not parse output.")
+        
     
 def main():
     for applicant in data_cleaned:
         if applicant.eligibility and not applicant.vulnerablility:
             applicant_check(applicant)
-        print(tabulate_result(applicant))
-
+        # print(tabulate_result(applicant))
+    write_to_csv(data_cleaned)
+    print("All applicants processed. Results written to people.csv")
+    write_to_json(data_cleaned)
+    print("All applicants processed. Results written to people.json")
         
 if __name__ == "__main__":
     main()

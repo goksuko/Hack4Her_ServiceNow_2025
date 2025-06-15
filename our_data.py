@@ -1,3 +1,4 @@
+import csv
 import json
 from marshmallow import Schema, fields, post_load
 
@@ -59,11 +60,27 @@ class Application:
             self.reason = "Household income exceeds the maximum threshold for subsidy eligibility."
     
     def correct_vulnerability(self):
-        if self.housing_situation == "unstable" or self.recent_municipal_support:
+        if self.housing_situation == "unstable" or len(self.recent_municipal_support) > 1:
             self.vulnerability = True
             self.decision = "VULNERABLE"
             self.reason = "Applicant is considered vulnerable due to unstable housing or recent municipal support."
 
+def write_to_csv(applicant):
+
+    with open('people.csv', 'w', newline='') as csvfile:
+        fieldnames = data_cleaned[0].__dict__.keys()
+        csvfile.truncate(0)  # Clear the file before writing
+        csvfile.seek(0)  # Move the cursor to the beginning of the file
+        people = data_cleaned
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        for person in people:
+            writer.writerow(person.__dict__)
+
+def write_to_json(applicant):
+    with open('people.json', 'w') as jsonfile:
+        json.dump([person.__dict__ for person in data_cleaned], jsonfile, indent=4)
     
 for item in data:   
     data_cleaned.append(Application(item))
@@ -276,7 +293,9 @@ def tabulate_result(self) -> str:
     
     return tabulate(data, headers=["Field", "Value"], tablefmt="grid")
 
-print(tabulate_result(data_cleaned[0], decision, reason))
+print("Tabulated Result for first application:")
+print(tabulate_result(data_cleaned[0]))
 
-with open("application_summary.txt", "w") as file:
-    file.write(tabulate_result(data_cleaned[0], decision, reason))
+   
+write_to_csv(data_cleaned[0])
+write_to_json(data_cleaned[0])
