@@ -1,0 +1,21 @@
+{
+    "application_id": "A001",
+    "applicant_name": "Laura Visser",
+    "household_income": 63506,
+    "employment_status": "unemployed",
+    "num_children": 1,
+    "child_ages": [
+      3
+    ],
+    "childcare_hours_requested": 137,
+    "housing_situation": "municipal housing",
+    "partner_employed": true,
+    "recent_municipal_support": [
+      "food aid"
+    ],
+    "flags": {
+      "incomplete_docs": true,
+      "high_hours_request": true,
+      "income_mismatch": false
+    }
+  }

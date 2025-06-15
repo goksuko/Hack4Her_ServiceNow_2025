@@ -1,0 +1,10 @@
+/bin
+/etc
+/include
+/lib
+/my-testing
+/share
+/venv
+pyvenv.cfg
+.env
+tapedata.*
